@@ -1,3 +1,5 @@
+tag @e[type=spectral_arrow,distance=..40,nbt={inGround:1b}] add we_arrow
+
 execute at @s[nbt={SelectedItem:{id:"minecraft:blackstone",Count:1b}}] run execute as @e[tag=we_arrow,distance=..40] at @s run fill ~ ~ ~ ~ ~ ~ minecraft:blackstone replace minecraft:air
 execute at @s[nbt={SelectedItem:{id:"minecraft:blackstone",Count:2b}}] run execute as @e[tag=we_arrow,distance=..40] at @s run fill ~ ~ ~ ~1 ~1 ~1 minecraft:blackstone replace minecraft:air
 execute at @s[nbt={SelectedItem:{id:"minecraft:blackstone",Count:3b}}] run execute as @e[tag=we_arrow,distance=..40] at @s run fill ~-1 ~-1 ~-1 ~1 ~1 ~1 minecraft:blackstone replace minecraft:air
@@ -65,3 +67,5 @@ execute at @s[nbt={SelectedItem:{id:"minecraft:barrier",Count:13b}}] run execute
 execute at @s[nbt={SelectedItem:{id:"minecraft:barrier",Count:14b}}] run execute as @e[tag=we_arrow,distance=..40] at @s run fill ~-6 ~-6 ~-6 ~7 ~7 ~7 minecraft:air
 execute at @s[nbt={SelectedItem:{id:"minecraft:barrier",Count:15b}}] run execute as @e[tag=we_arrow,distance=..40] at @s run fill ~-7 ~-7 ~-7 ~7 ~7 ~7 minecraft:air
 execute at @s[nbt={SelectedItem:{id:"minecraft:barrier",Count:16b}}] run execute as @e[tag=we_arrow,distance=..40] at @s run fill ~-7 ~-7 ~-7 ~8 ~8 ~8 minecraft:air
+
+kill @e[type=!player,tag=we_arrow]
