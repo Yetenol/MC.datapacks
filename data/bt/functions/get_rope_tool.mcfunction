@@ -1,1 +1,7 @@
-give @s bat_spawn_egg{display:{Name:'[{"text":"Rope tool","italic":false}]'},EntityTag:{BatFlags:1,Tags:["bt_knot"],CustomName:'[{"text":"Rope start"}]',Glowing:1,Invulnerable:1,NoAI:1,PersistenceRequired:1,Silent:1}}
+give @p bat_spawn_egg{display:{Name:'[{"text":"Rope start","italic":false}]'},EntityTag:{Tags:[bt_rope_start],ActiveEffects:[{Id:14b,Duration:999999,ShowParticles:0b}],BatFlags:1,CustomName:'[{"text":"Rope start","color":"gold"}]',Health:1,Glowing:1,Invulnerable:1,NoAI:1,NoGravity:1,PersistenceRequired:1,Silent:1,Attributes:[{Name:"generic.max_health",Base:1F}]}}
+
+give @p bat_spawn_egg{display:{Name:'[{"text":"Rope end","italic":false}]'},EntityTag:{Tags:[bt_rope_end],ActiveEffects:[{Id:14b,Duration:999999,ShowParticles:0b}],BatFlags:1,CustomName:'[{"text":"Rope end","color":"gold"}]',Health:1,Glowing:1,Invulnerable:1,NoAI:1,NoGravity:1,PersistenceRequired:1,Silent:1,Attributes:[{Name:"generic.max_health",Base:1F}]}}
+
+give @p bat_spawn_egg{display:{Name:'[{"text":"Rope (+knot) start","italic":false}]'},EntityTag:{Tags:[bt_rope_start,bt_knot],ActiveEffects:[{Id:14b,Duration:999999,ShowParticles:0b}],BatFlags:1,CustomName:'[{"text":"Rope start","color":"gold"}]',Health:1,Glowing:1,Invulnerable:1,NoAI:1,NoGravity:1,PersistenceRequired:1,Silent:1,Attributes:[{Name:"generic.max_health",Base:1F}]}}
+
+give @p bat_spawn_egg{display:{Name:'[{"text":"Rope (+knot)end","italic":false}]'},EntityTag:{Tags:[bt_rope_end,bt_knot],ActiveEffects:[{Id:14b,Duration:999999,ShowParticles:0b}],BatFlags:1,CustomName:'[{"text":"Rope end","color":"gold"}]',Health:1,Glowing:1,Invulnerable:1,NoAI:1,NoGravity:1,PersistenceRequired:1,Silent:1,Attributes:[{Name:"generic.max_health",Base:1F}]}}

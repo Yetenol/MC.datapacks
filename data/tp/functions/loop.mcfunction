@@ -26,7 +26,7 @@ execute as @a[scores={jungle=1..}] run tp @s 691 68 2106
 scoreboard players set @a jungle 0
 scoreboard players enable @a jungle
 
-execute as @a[scores={big_city=1..}] run tp @s 271 65 991 -30 -15
+execute as @a[scores={big_city=1..}] run tp @s -760 66 1685
 scoreboard players set @a big_city 0
 scoreboard players enable @a big_city
 
