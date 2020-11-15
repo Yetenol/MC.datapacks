@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "title": "Teleportation",
+        "description": "Teleport thoughout the world",
+        "background": "minecraft:textures/entity/end_portal.png",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "ender_pearl": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ender_pearl"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "rewards": {
+        "function": "bt:loop"
+    },
+    "criteria": {
+        "loop": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

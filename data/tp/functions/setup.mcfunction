@@ -1,0 +1,12 @@
+scoreboard objectives add spawn trigger
+scoreboard objectives add desert trigger
+scoreboard objectives add arena trigger
+scoreboard objectives add paradise trigger
+scoreboard objectives add vulcano trigger
+scoreboard objectives add big_trees trigger
+scoreboard objectives add jungle trigger
+scoreboard objectives add big_city trigger
+scoreboard objectives add castle trigger
+scoreboard objectives add farm_world trigger
+scoreboard objectives add floating_islands trigger
+scoreboard objectives add hangar trigger

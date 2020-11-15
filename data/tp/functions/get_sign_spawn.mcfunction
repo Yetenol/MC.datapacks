@@ -1,0 +1,1 @@
+give @s minecraft:birch_sign{BlockEntityTag:{Text1:'{"text":"-*-","clickEvent":{"action":"run_command","value":"trigger spawn"}}',Text2:'{"text":"Spawn"}',Text3:'{"text":""}',Text4:'{"text":"-*-"}'},display:{Name:'{"text":"Spawn"}'}}
