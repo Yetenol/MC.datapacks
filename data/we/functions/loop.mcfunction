@@ -2,8 +2,8 @@
 
 tag @e[type=spectral_arrow,nbt={inGround:1b}] add we_arrow
 
-execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:bow"}]}] run scoreboard players set bow debug 1
-execute unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:bow"}]}] run scoreboard players set bow debug 0
+execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:bow"}]}] run scoreboard players set bow we_debug 1
+execute unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:bow"}]}] run scoreboard players set bow we_debug 0
 
 
 #execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:bow"}]}] run function we:arrow_brush if @e[we_arrow,distance=..40]
