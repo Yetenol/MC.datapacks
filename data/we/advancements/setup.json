@@ -1,0 +1,10 @@
+{
+    "rewards": {
+        "function": "we:setup"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
