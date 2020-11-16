@@ -1,21 +1,21 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:spectral_arrow"
+            "item": "minecraft:lead"
         },
-        "title": "World Edit",
-        "description": "Edit the minecraft world",
+        "title": "Build Tools",
+        "description": "Create ropes and more",
         "background": "minecraft:textures/entity/end_portal.png",
         "show_toast": true,
         "announce_to_chat": true
     },
     "criteria": {
-        "spectral_arrow": {
+        "lead": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "item": "minecraft:spectral_arrow"
+                        "item": "minecraft:lead"
                     }
                 ]
             }

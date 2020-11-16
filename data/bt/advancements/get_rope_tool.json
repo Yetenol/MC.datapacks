@@ -1,0 +1,17 @@
+{
+    "rewards": {
+        "function": "bt:get_rope_tool"
+    },
+    "criteria": {
+        "lead": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lead"
+                    }
+                ]
+            }
+        }
+    }
+}
